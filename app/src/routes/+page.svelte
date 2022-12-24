@@ -45,7 +45,7 @@
     .blerb{
         flex: 1;
         margin: 1rem;
-        border: 0.3rem solid black;
+        border: 0.3rem solid #8C8273;
         border-radius: 2rem;
         padding: 0.5rem
     }
@@ -58,7 +58,9 @@
         height: 80vh;
         display: flex;
         justify-content: center;
+        background-color: #181A1B;
         align-items: center;
+        color: white;
     }
     @media (max-width: 750px) {
         img{

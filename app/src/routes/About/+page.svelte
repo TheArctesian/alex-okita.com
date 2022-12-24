@@ -60,6 +60,11 @@
 
 
 <style>
+    .main{
+                background-color: #181A1B;
+                color: white;
+
+    }
     .scl{
         width: 30vw;
         margin: auto;
@@ -74,7 +79,7 @@
         justify-content: center;
     }
     .gant{
-        background-color: #272727;
+        background-color: rgb(29, 32, 33);
         padding: 1rem;
         border-radius: 2rem;
     }

@@ -9,7 +9,7 @@
     div{
         padding-top: 1rem;
         padding-bottom: 1rem;
-        background-color:#272727;
+        background-color:rgb(29, 32, 33);
         color: #E7E7E7;
         font-family: 'M PLUS Rounded 1c', sans-serif;
 
@@ -21,6 +21,9 @@
     }
     a:hover{
         color: #6B6B6B;
+    }
+    :global(body) {
+        background-color: #181A1B;
     }
 </style>
 <div class="flex alight-center text-center ">

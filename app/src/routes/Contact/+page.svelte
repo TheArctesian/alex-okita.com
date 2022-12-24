@@ -3,6 +3,8 @@
         display: flex;
         justify-content: center;
         margin: 1rem;
+        background-color: white;
+        border-radius: 2rem;
     }
     img{
         transition: all ease-in-out 200ms;
@@ -41,6 +43,9 @@
     .element{
         margin:2rem;
     }
+    h1{
+        color: white;
+    }
  
 </style>
 <div class="wrapper">
@@ -51,7 +56,7 @@
     <div class="content">
     	<div class="element c1">
     		<a href="https://mycis.cis.edu.hk/">
-    			<img src="https://simpleicons.org/icons/linkedin.svg" />
+                <img src="https://simpleicons.org/icons/linkedin.svg" />
     		</a>
     	</div>
     	<div class="element c2">
