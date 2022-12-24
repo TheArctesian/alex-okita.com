@@ -5,6 +5,6 @@ git pull
 cd Client/src
 yarn install
 yarn run build
-yarn run dev --host --port 3333
+yarn run dev -- --host --port 3333
 
 systemctl restart runClient
