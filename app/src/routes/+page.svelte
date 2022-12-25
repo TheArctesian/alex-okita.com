@@ -43,8 +43,10 @@
     }
 
     .blerb{
-        flex: 1;
-        margin: 1rem;
+        flex: 2;
+        align-content: center;
+        margin:auto;
+        margin-right: 4rem;
         border: 0.3rem solid #8C8273;
         border-radius: 2rem;
         padding: 0.5rem
