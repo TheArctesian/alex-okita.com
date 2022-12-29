@@ -28,6 +28,7 @@
         flex: 0.25;
         margin-top: 1rem;
         flex-basis: 50%;
+        justify-content: center;
     }
     img{
         justify-content: center;
@@ -43,13 +44,15 @@
     }
 
     .blerb{
-        flex: 2;
-        align-content: center;
-        margin:auto;
-        margin-right: 4rem;
+        align-self: center;
+        margin: auto;
+        margin-left: 1rem;
+        height: fit-content;
         border: 0.3rem solid #8C8273;
         border-radius: 2rem;
-        padding: 0.5rem
+        padding: 1rem;
+        flex: 50%;
+
     }
     
     .cover-text{
@@ -59,9 +62,7 @@
     .wrapper{
         height: 80vh;
         display: flex;
-        justify-content: center;
         background-color: #181A1B;
-        align-items: center;
         color: white;
     }
     @media (max-width: 750px) {
@@ -72,7 +73,9 @@
             flex:0.1;
         }
         .blerb{
+            margin-top: 1rem;
             flex: 0.1;
+            margin-right: 0;
         }
         .wrapper{
             height: fit-content;
