@@ -3,11 +3,10 @@
         display: flex;
         justify-content: center;
         margin: 1rem;
-        background-color: white;
+        background-color: var(--fg);
         border-radius: 2rem;
     }
     img{
-        transition: all ease-in-out 200ms;
         width: 10vw;
     }
     .c1:hover{
@@ -18,10 +17,9 @@
     .c2{
         border-radius: 2rem;
         background: none;
-        transition: all ease-in-out 200ms;
     }
     .c2:hover{
-        transition: all ease-in-out 200ms;
+        border-radius: 5rem;
         background:linear-gradient(#F58529, #FEDA77,#DD2A7B,#8134AF,#515BD4); 
 
     }
@@ -44,7 +42,7 @@
         margin:2rem;
     }
     h1{
-        color: white;
+        color: var(--text);
     }
  
 </style>

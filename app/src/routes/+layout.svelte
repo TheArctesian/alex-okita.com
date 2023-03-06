@@ -3,15 +3,10 @@
 </script>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800&display=swap');
-    main{
-        background-color:#272727;
-    } 
     div{
         padding-top: 1rem;
         padding-bottom: 1rem;
-        background-color:rgb(29, 32, 33);
-        color: #E7E7E7;
-        font-family: 'M PLUS Rounded 1c', sans-serif;
+        background-color: var(--fg);
 
     }
     a{
@@ -20,10 +15,12 @@
         transition: all ease-in-out 400ms;
     }
     a:hover{
-        color: #6B6B6B;
+        color: var(--pri);
     }
     :global(body) {
-        background-color: #181A1B;
+        background-color: var(--bg);
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        color: var(--text)
     }
 </style>
 <div class="flex alight-center text-center ">
